@@ -5,23 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fabricio Fruet - Music Classes</title>
-    <link rel="stylesheet" href="css/styles.contact">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="icon" type="icon" href="images/favicon.ico">
 
 </head>
 
-<form action="/action_page.php" method="get">
-    <label for="fname">First Name: (Required)</label>
-    <input type="text" id="fname" name="firstname" required>
+<header>
+    <nav>
+        <img src="images/logo.png" alt="logo">
 
-    <label for="lname">Last Name:</label>
-    <input type="text" id="lname" name="lastname">
+        <ul>
+           
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biography.html">Biography</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="privateclasses.html">Private Classes</a></li>
+            <li><a href="contact.html">Contact</a></li>
 
-    <label for="email">Email: (Required)</label>
-    <input type="email" id="email" name="email" required>
+        </ul>
+    </nav>
+</header>
+<div class="h1">
+    <h1>Contact</h1>
+</div>
 
-    <label for="message">Mesage:</label>
-    <textarea id="message" name="message" rows="4" cols="50">Leave your massage here...</textarea>
+<body>
 
-    <input type="submit" value="Enviar">
-</form>
+    <div class="wrapper">
+
+        <img src="images/cello2.jpeg" alt="logo">
+
+        <form action="/action_page.php" method="get">
+            <h2 class="text">For more information</h2>
+            <label for="fname">First Name: (Required)</label><br>
+            <input type="text" id="fname" name="firstname" required><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lastname"><br>
+
+            <label for="email">Email: (Required)</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>Fabricio Fruet © 2023 all rights reserved. Website design by Andreia Dourado / Danilo Mendes / Regina
+            Fruet
+        </p>
+    </footer>
+
+</body>
+
+</html>
