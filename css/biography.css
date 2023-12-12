@@ -21,6 +21,13 @@ h1 {
     padding: 20px;
     text-align: left;
     text-shadow: 1px 1px 2px rgb(133, 133, 133);
+    opacity: 0; 
+    transition: opacity 1s ease; /* add a smooth transition */
+}
+
+/* class to start the transition */
+h1.show {
+    opacity: 1;
 }
 
 header,
