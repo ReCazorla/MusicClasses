@@ -104,7 +104,6 @@ nav a {
 
 .proposal-button {
   display: block;
-  margin: 0 auto 0; /* Adiciona margem automática na parte de baixo da div .instrument */
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
@@ -113,7 +112,7 @@ nav a {
   color: #ffffff;
   background-color: #000000;
   border: 2px solid #000000;
-  border-radius: 10px; /* Cantos arredondados */
+  border-radius: 10px; 
   cursor: pointer;
 }
 
