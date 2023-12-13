@@ -1,89 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fabricio Fruet - Music Classes</title>
+    <link rel="stylesheet" href="../css/private_classes.css" />
+    <link rel="icon" type="icon" href="../images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fabricio Fruet - Music Classes</title>
-  <link rel="stylesheet" href="../css/private_classes.css" />
-  <link rel="icon" type="icon" href="../images/favicon.ico" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <body>
+    <header>
+      <nav>
+        <img src="../images/logo.png" alt="logo" />
 
-</head>
+        <ul>
+          <!-- MUDAR OS # -->
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="biography.html">Biography</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="private_classes.html">Private Classes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="h1">
+        <h1>Private Classes</h1>
+      </div>
 
-<body>
-  <header>
-    <nav>
-      <img src="../images/logo.png" alt="logo" />
+      <div class="container">
+        <!-- Acoustic Guitar Section -->
+        <div class="instrument">
+          <img src="../images/guitar1.jpeg" alt="Acoustic Guitar" />
+          <p>
+            Dive into the fascinating world of the bass guitar with our
+            practical and theoretical lessons. Whether you're a beginner or
+            someone looking to refine their skills, our class is designed to
+            meet the needs of all aspiring bassists
+          </p>
+          <p>
+            <input type="checkbox" id="btnAcousticGuitar" class="proposal-toggle"/>
+            <label for="btnAcousticGuitar" class="proposal-button">View Proposal</label
+            >
+          </p>
+        </div>
 
-      <ul>
-        <!-- MUDAR OS # -->
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="biography.html">Biography</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="private_classes.html">Private Classes</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <div class="h1">
-      <h1>Private Classes</h1>
+        <!-- Bass Section -->
+        <div class="instrument">
+          <img src="../images/bass.jpeg" alt="Bass" />
+          <p>
+            Step into the captivating realm of the cello with our blend of
+            hands-on instruction and theory lessons. Suitable for both novices
+            and those looking to polish their skills, our curriculum welcomes
+            cellists at every stage of their journey.
+          </p>
+          <p class="price">
+            <input type="checkbox" id="btnBass" class="proposal-toggle" />
+            <label for="btnBass" class="proposal-button">View Proposal</label>
+          </p>
+        </div>
+
+        <!-- Cello Section -->
+        <div class="instrument">
+          <img src="../images/cello1.jpeg" alt="Cello" />
+          <p>
+            Explore the vibrant tapestry of guitar music in our dynamic hands-on
+            lessons and in-depth theory discussions. From those striking their
+            first chord to seasoned players seeking refinement, our syllabus
+            welcomes guitar lovers across the spectrum of proficiency
+          </p>
+          <p class="price">
+            <input type="checkbox" id="btnCello" class="proposal-toggle" />
+            <label for="btnCello" class="proposal-button">View Proposal</label>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Fabricio Fruet © 2023 all rights reserved. Website design by Andreia
+        Dourado / Danilo Mendes / Regina Fruet
+        <a href="https://www.youtube.com/watch?v=1prweT95Mo0" target="_blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <a href="https://www.instagram.com/yoyoma/?hl=pt" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </p>
+    </footer>
+  </body>
+
+  <!-- ... (previous HTML content) ... -->
+
+  <!-- Modal for Acoustic Guitar -->
+  <div id="modalAcousticGuitar" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Acoustic Guitar Course</h2>
+      <p>
+        This is a brief explanation of the Acoustic Guitar course and the course
+        fee.
+      </p>
+      <p>Course Fee: $50</p>
     </div>
+  </div>
 
-    <div class="container">
-      <!-- Acoustic Guitar Section -->
-      <div class="instrument">
-        <img src="../images/guitar1.jpeg" alt="Acoustic Guitar" />
-        <p>
-          Dive into the fascinating world of the bass guitar with our
-          practical and theoretical lessons. Whether you're a beginner or
-          someone looking to refine their skills, our class is designed to
-          meet the needs of all aspiring bassists
-        </p>
-        <p>
-          <button class="proposal-button" type="button">View Proposal</button>
-        </p>
-      </div>
-
-      <!-- Bass Section -->
-      <div class="instrument">
-        <img src="../images/bass.jpeg" alt="Bass" />
-        <p>
-          Step into the captivating realm of the cello with our blend of
-          hands-on instruction and theory lessons. Suitable for both novices
-          and those looking to polish their skills, our curriculum welcomes
-          cellists at every stage of their journey.
-        </p>
-        <p class="price">
-          <button class="proposal-button" type="button">View Proposal</button>
-        </p>
-      </div>
-
-      <!-- Cello Section -->
-      <div class="instrument">
-        <img src="../images/cello1.jpeg" alt="Cello" />
-        <p>
-          Explore the vibrant tapestry of guitar music in our dynamic hands-on
-          lessons and in-depth theory discussions. From those striking their
-          first chord to seasoned players seeking refinement, our syllabus
-          welcomes guitar lovers across the spectrum of proficiency
-        </p>
-        <p class="price">
-          <button class="proposal-button" type="button">View Proposal</button>
-        </p>
-      </div>
+  <!-- Modal for Bass -->
+  <div id="modalBass" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Bass Course</h2>
+      <p>This is a brief explanation of the Bass course and the course fee.</p>
+      <p>Course Fee: $50</p>
     </div>
-  </section>
+  </div>
 
-  <footer>
-    <p>
-      Fabricio Fruet © 2023 all rights reserved. Website design by Andreia
-      Dourado / Danilo Mendes / Regina Fruet
-      <a href="https://www.youtube.com/watch?v=1prweT95Mo0" target="_blank"><i class="fab fa-youtube"></i></a>
-      <a href="https://www.instagram.com/yoyoma/?hl=pt" target="_blank"><i class="fab fa-instagram"></i></a>
-    </p>
-  </footer>
-</body>
+  <!-- Modal for Cello -->
+  <div id="modalCello" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Cello Course</h2>
+      <p>This is a brief explanation of the Cello course and the course fee.</p>
+      <p>Course Fee: $50</p>
+    </div>
+  </div>
 
+  <script>
+    // Function to open a modal
+    function openModal(modal) {
+      modal.style.display = "block";
+    }
+
+    // Function to close a modal
+    function closeModal(modal) {
+      modal.style.display = "none";
+    }
+
+    // Event listener for each course button
+    document
+      .getElementById("btnAcousticGuitar")
+      .addEventListener("click", function () {
+        openModal(document.getElementById("modalAcousticGuitar"));
+      });
+
+    document.getElementById("btnBass").addEventListener("click", function () {
+      openModal(document.getElementById("modalBass"));
+    });
+
+    document.getElementById("btnCello").addEventListener("click", function () {
+      openModal(document.getElementById("modalCello"));
+    });
+
+    // Event listeners for closing modals
+    document.querySelectorAll(".close").forEach(function (closeButton) {
+      closeButton.addEventListener("click", function () {
+        closeModal(closeButton.closest(".modal"));
+      });
+    });
+
+    window.addEventListener("click", function (event) {
+      if (event.target.classList.contains("modal")) {
+        closeModal(event.target);
+      }
+    });
+  </script>
 </html>
