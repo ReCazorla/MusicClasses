@@ -90,17 +90,17 @@ nav a {
 }
 
 .wrapper::before {
-    content: 'Fabricio Fruet'; /* Adicione o texto desejado aqui */
+    content: 'Fabricio Fruet'; 
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-10%, -50%);
     font-family: 'Lora', serif;
-    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 24px; 
     background-color: #000000;
     z-index: 1;
-    padding: 10px; /* Ajuste o preenchimento conforme necessário */
+    padding: 10px; 
 }
 
 .wrapper img {
