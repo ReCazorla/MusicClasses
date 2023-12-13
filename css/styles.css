@@ -19,7 +19,7 @@ body {
     text-align: center;
     padding: 20px;
     text-shadow: 1px 1px 2px rgb(133, 133, 133);
-    font-family: "lora" serif;
+    font-family: "lora", serif;
 }
 
 header,
