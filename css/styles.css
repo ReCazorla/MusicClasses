@@ -98,35 +98,36 @@ nav a {
 }
 
 .testimonial-container {
-    max-width: 800px;
-    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 
 h2 {
-    color: #333;
+    text-align: center;
+    color: #000;
     font-size: 28px;
+    text-shadow: 1px 1px 2px rgb(133, 133, 133);
+    font-family: "lora", serif;
 }
 
 .testimonial {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px 0;
-}
-
-.testimonial img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    border-color: #000000;
+    border: 5px solid #000000;
+    border-radius: 20px 20px 20px;
+    width: 600px;
+    height: 400px;
 }
 
 .testimonial p {
-    color: #555;
-    font-size: 16px;
-    line-height: 1.5;
+    margin: auto;
+    color:#000;
+    align-items: center;
+    width: 90%;
+    height: 43%;
 }
 
 .student-name {
@@ -138,7 +139,7 @@ h2 {
 .testimonial i {
     color: #FFD700;
     font-size: 20px;
-    margin: 0 2px;
+    margin: 50px 2px;
 }
 
 footer {
