@@ -92,6 +92,7 @@ nav a {
 }
 
 .wrapper p{
+    width: 20%;
     color:#fff;
     text-align: justify;
     font-family: 'Lora', serif;
