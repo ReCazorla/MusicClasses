@@ -104,8 +104,10 @@ nav a {
 }
 
 h2 {
-    color: #333;
+    color: #000;
     font-size: 28px;
+    text-shadow: 1px 1px 2px rgb(133, 133, 133);
+    font-family: "lora", serif;
 }
 
 .testimonial {
