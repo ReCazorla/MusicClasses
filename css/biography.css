@@ -22,6 +22,7 @@ h1 {
     text-shadow: 1px 1px 2px rgb(133, 133, 133);
     opacity: 0; 
     transition: opacity 1s ease; /* add a smooth transition */
+    font-family: 'lora' serif;
 }
 
 /* class to start the transition */
@@ -83,11 +84,16 @@ body {
 }
 
 .column {
-    flex: 1;
+    background: url('/images/bio.JPG') center/cover; 
+    color: #ffffff;
     padding: 20px;
     font-size: 60px;
     line-height: 1.5;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .column-p {
