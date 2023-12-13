@@ -71,31 +71,29 @@ nav a {
 }
 
 .wrapper {
-
-    background-color: #000000;
+    background-color: #333; /* Dark background color */
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin: 20px auto; /* Add margin for spacing */
     padding: 20px;
     box-sizing: border-box;
-    font-family: 'lora' serif;
-    height: 50%;
+    font-family: 'Lora', serif; /* Use 'Lora' font for consistency */
     border-radius: 20px;
 }
 
 .wrapper img {
-    width: 50%;
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
     height: auto;
-    margin-top: 30px;
+    margin-top: 20px; /* Adjust margin for spacing */
     object-fit: cover;
 }
 
-.wrapper p{
-    width: 50%;
-    color:#fff;
+.wrapper p {
+    width: 100%; /* Full width for text */
+    color: #fff;
     text-align: justify;
-    font-family: 'Lora', serif;
 }
 
 footer {
