@@ -1,205 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fabricio Fruet - Music Classes</title>
-    <link rel="stylesheet" href="../css/private_classes.css" />
-    <link rel="icon" type="icon" href="../images/favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <img src="../images/logo.png" alt="logo" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fabricio Fruet - Music Classes</title>
+  <link rel="stylesheet" href="../css/private_classes.css" />
+  <link rel="icon" type="icon" href="../images/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bangers&family=Bebas+Neue&family=Domine&family=Lora:ital,wght@1,500&family=Manrope&family=Merriweather:wght@700&family=Raleway&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
 
-        <ul>
-          <!-- MUDAR OS # -->
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="biography.html">Biography</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="private_classes.html">Private Classes</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <div class="h1">
-        <h1>Private Classes</h1>
+<body>
+  <header>
+    <nav>
+      <img src="../images/logo.png" alt="logo" />
+
+      <ul>
+        <!-- MUDAR OS # -->
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="private_classes.html">Private Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="h1">
+      <h1>Private Classes</h1>
+    </div>
+
+    <div class="container">
+      <!-- Acoustic Guitar Section -->
+      <div class="instrument">
+        <img src="../images/guitar1.jpeg" alt="Acoustic Guitar" />
+        <p>
+          Dive into the fascinating world of the bass guitar with our
+          practical and theoretical lessons. Whether you're a beginner or
+          someone looking to refine their skills, our class is designed to
+          meet the needs of all aspiring bassists
+        </p>
+        <p>
+          <input type="checkbox" id="btnAcousticGuitar" class="proposal-toggle" />
+          <label for="btnAcousticGuitar" class="proposal-button">View Proposal</label>
+        </p>
       </div>
 
-      <div class="container">
-        <!-- Acoustic Guitar Section -->
-        <div class="instrument">
-          <img src="../images/guitar1.jpeg" alt="Acoustic Guitar" />
-          <p>
-            Dive into the fascinating world of the bass guitar with our
-            practical and theoretical lessons. Whether you're a beginner or
-            someone looking to refine their skills, our class is designed to
-            meet the needs of all aspiring bassists
-          </p>
-          <p>
-            <input type="checkbox" id="btnAcousticGuitar" class="proposal-toggle"/>
-            <label for="btnAcousticGuitar" class="proposal-button">View Proposal</label
-            >
-          </p>
-        </div>
-
-        <!-- Bass Section -->
-        <div class="instrument">
-          <img src="../images/bass.jpeg" alt="Bass" />
-          <p>
-            Step into the captivating realm of the cello with our blend of
-            hands-on instruction and theory lessons. Suitable for both novices
-            and those looking to polish their skills, our curriculum welcomes
-            cellists at every stage of their journey.
-          </p>
-          <p class="price">
-            <input type="checkbox" id="btnBass" class="proposal-toggle" />
-            <label for="btnBass" class="proposal-button">View Proposal</label>
-          </p>
-        </div>
-
-        <!-- Cello Section -->
-        <div class="instrument">
-          <img src="../images/cello1.jpeg" alt="Cello" />
-          <p>
-            Explore the vibrant tapestry of guitar music in our dynamic hands-on
-            lessons and in-depth theory discussions. From those striking their
-            first chord to seasoned players seeking refinement, our syllabus
-            welcomes guitar lovers across the spectrum of proficiency
-          </p>
-          <p class="price">
-            <input type="checkbox" id="btnCello" class="proposal-toggle" />
-            <label for="btnCello" class="proposal-button">View Proposal</label>
-          </p>
-        </div>
+      <!-- Bass Section -->
+      <div class="instrument">
+        <img src="../images/bass.jpeg" alt="Bass" />
+        <p>
+          Step into the captivating realm of the cello with our blend of
+          hands-on instruction and theory lessons. Suitable for both novices
+          and those looking to polish their skills, our curriculum welcomes
+          cellists at every stage of their journey.
+        </p>
+        <p class="price">
+          <input type="checkbox" id="btnBass" class="proposal-toggle" />
+          <label for="btnBass" class="proposal-button">View Proposal</label>
+        </p>
       </div>
-    </section>
 
-    <footer>
-      <p>
-        Fabricio Fruet © 2023 all rights reserved. Website design by Andreia
-        Dourado / Danilo Mendes / Regina Fruet
-        <a href="https://www.youtube.com/watch?v=1prweT95Mo0" target="_blank"
-          ><i class="fab fa-youtube"></i
-        ></a>
-        <a href="https://www.instagram.com/yoyoma/?hl=pt" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </p>
-    </footer>
-  </body>
-
-  <!-- ... (previous HTML content) ... -->
-
-  <!-- Modal for Acoustic Guitar -->
-  <div id="modalAcousticGuitar" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Acoustic Guitar Course</h2>
-      <p>
-        Ready to strum your way into the world of acoustic guitar music? Our classes cater to beginners and experienced players alike, offering a dynamic learning experience.
-      </p>
-      <p>• Master Technique: Perfect your strumming, chord transitions, fingerstyle, and guitar maintenance.
-        • Unlock Music Theory: Learn to read music, understand chord progressions, explore scales, and delve into the history of acoustic guitar music.
-        • Express Yourself: Showcase your talent in recitals, interpret diverse musical genres, and even craft your original songs.
+      <!-- Cello Section -->
+      <div class="instrument">
+        <img src="../images/cello1.jpeg" alt="Cello" />
+        <p>
+          Explore the vibrant tapestry of guitar music in our dynamic hands-on
+          lessons and in-depth theory discussions. From those striking their
+          first chord to seasoned players seeking refinement, our syllabus
+          welcomes guitar lovers across the spectrum of proficiency
         </p>
-      <p>Course Fee: In-Person (One class): $55.00 per session (or $220.00 per month)
-        In-Person (Two classes): $50.00 per session (or $400.00 per month)
-        Online (One class): $45.00 per session (or $180.00 per month)
-        Online (Two classes): $40.00 per session (or $320.00 per month)
+        <p class="price">
+          <input type="checkbox" id="btnCello" class="proposal-toggle" />
+          <label for="btnCello" class="proposal-button">View Proposal</label>
         </p>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <!-- Modal for Bass -->
-  <div id="modalBass" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Bass Course</h2>
-      <p>Are you ready to embark on a musical journey that will fill your life with the beauty of acoustic guitar music? Our acoustic guitar classes offer a comprehensive and enriching experience for students of all levels. Whether you're a beginner or looking to refine your skills, our classes are designed to meet your needs.
-        
-        • Master Technique: Perfect your strumming, chord transitions, fingerstyle, and guitar maintenance.
-        • Unlock Music Theory: Learn to read music, understand chord progressions, explore scales, and delve into the history of acoustic guitar music.
-        • Express Yourself: Showcase your talent in recitals, interpret diverse musical genres, and even craft your original songs.
-        
-        Enroll now and let the acoustic guitar become your voice, your passion, and your artistic expression.
-        </p>
-      <p>Course Fee: $50</p>
-      <p>In-Person (One class): $55.00 per session (or $220.00 per month)
-        In-Person (Two classes): $50.00 per session (or $400.00 per month)
-        Online (One class): $45.00 per session (or $180.00 per month)
-        Online (Two classes): $40.00 per session (or $320.00 per month)
-        </p>
-        <p> The prices may change, depending on the location of the In-Person Classes. 
-          Contact us for more information!</p>
-    </div>
-  </div>
+  <footer>
+    <p>
+      Fabricio Fruet © 2023 all rights reserved. Website design by Andreia
+      Dourado / Danilo Mendes / Regina Fruet
+      <a href="https://www.youtube.com/watch?v=1prweT95Mo0" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.instagram.com/yoyoma/?hl=pt" target="_blank"><i class="fab fa-instagram"></i></a>
+    </p>
+  </footer>
+</body>
 
-  <!-- Modal for Cello -->
-  <div id="modalCello" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Cello Course</h2>
-      <p>Are you ready to embark on a musical journey that will fill your life with the beauty of cello music? Our cello classes offer a comprehensive and enriching experience for students of all levels. Whether you're a beginner or looking to refine your skills, our classes are tailored to meet your needs.
-      </p>
-      <p>•	Master Technique: Perfect your bow control, finger placement, posture, and intonation.
-        •	Unlock Music Theory: Learn to read music, understand scales, chords, and delve into cello history.
-        •	Express Yourself: Showcase your talent in recitals, explore research projects, and deepen your musicality.
-        </p>
-      <p>Course Fee: In-Person (One class): $60.00 per session (or $240.00 per month)
-        In-Person (Two classes): $55.00 per session (or $440.00 per month)
-        Online (One class): $55.00 per session (or $220.00 per month)
-        Online (Two classes): $50.00 per session (or $400.00 per month)
-        
-        The prices may change, depending on the location of the In-Person Classes. 
-        Contact us for more information!
-        </p>
-    </div>
-  </div>
+<!-- ... (previous HTML content) ... -->
 
-  <script>
-    // Function to open a modal
-    function openModal(modal) {
-      modal.style.display = "block";
+<!-- Modal for Acoustic Guitar -->
+<div id="modalAcousticGuitar" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Acoustic Guitar Course</h2>
+    <p><strong>Ready to strum your way into the world of acoustic guitar music? </strong></p>
+    <p>• Master Technique: Perfect your strumming, chord transitions, fingerstyle, and guitar maintenance.</p>
+    <p>• Unlock Music Theory: Learn to read music, understand chord progressions, explore scales, and delve into the
+      history of acoustic guitar music.</p>
+    <p>• Express Yourself: Showcase your talent in recitals, interpret diverse musical genres, and even craft your
+      original songs.
+    </p>
+    <p><strong>Course Fee:</strong></p>
+    <p>In-Person (One class): $55.00 per session (or $220.00 per month)</p>
+    <p>In-Person (Two classes): $50.00 per session (or $400.00 per month)</p>
+    <p>Online (One class): $45.00 per session (or $180.00 per month)</p>
+    <p>Online (Two classes): $40.00 per session (or $320.00 per month)</p>
+    <br>
+    <p> The prices may change, depending on the location of the In-Person Classes.</p>
+    <p><strong>Contact us for more information!</strong></p>
+  </div>
+</div>
+
+<!-- Modal for Bass -->
+<div id="modalBass" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Bass Course</h2>
+    <p><strong>Are you ready to dive into the rhythmic world of electronic bass guitar?<strong></p>
+    <p>• Exploring Music Technology: Dive into the realm of music technology, effects pedals, and amplification for
+      electronic bass.</p>
+    <p>• Music Theory and Rhythm: Learn to read music, understand basslines, explore scales, and master rhythm patterns
+      unique to electronic bass.</p>
+    <p>• Express Yourself Electronically: Showcase your talent in performances, create your original electronic bass
+      compositions, and become a groove maestro.</p>
+
+    <p><strong>Course Fee:</strong></p>
+    <p>In-Person (One class): $55.00 per session (or $220.00 per month)</p>
+    <p>In-Person (Two classes): $50.00 per session (or $400.00 per month)</p>
+    <p>Online (One class): $45.00 per session (or $180.00 per month)</p>
+    <p>Online (Two classes): $40.00 per session (or $320.00 per month)</p>
+    <br>
+    <p> The prices may change, depending on the location of the In-Person Classes.</p>
+    <p><strong>Contact us for more information!</strong></p>
+
+  </div>
+</div>
+
+<!-- Modal for Cello -->
+<div id="modalCello" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Cello Course</h2>
+    <p><strong> Are you ready to embark on a musical journey that will fill your life with the beauty of cello
+        music?</strong></p>
+    <p>• Master Technique: Perfect your bow control, finger placement, posture, and intonation.</p>
+    <p>• Unlock Music Theory: Learn to read music, understand scales, chords, and delve into cello history.</p>
+    <p>•Express Yourself: Showcase your talent in recitals, explore research projects, and deepen your musicality.</p>
+
+    <p><strong>Course Fee:</strong></p>
+    <p>In-Person (One class): $60.00 per session (or $240.00 per month)</p>
+    <p>In-Person (Two classes): $55.00 per session (or $440.00 per month)</p>
+    <p>Online (One class): $55.00 per session (or $220.00 per month)</p>
+    <p>Online (Two classes): $50.00 per session (or $400.00 per month)</p>
+    <p> The prices may change, depending on the location of the In-Person Classes.</p>
+    <p><strong>Contact us for more information!</strong></p>
+  </div>
+</div>
+
+<script>
+  // Function to open a modal
+  function openModal(modal) {
+    modal.style.display = "block";
+  }
+
+  // Function to close a modal
+  function closeModal(modal) {
+    modal.style.display = "none";
+  }
+
+  // Event listener for each course button
+  document
+    .getElementById("btnAcousticGuitar")
+    .addEventListener("click", function () {
+      openModal(document.getElementById("modalAcousticGuitar"));
+    });
+
+  document.getElementById("btnBass").addEventListener("click", function () {
+    openModal(document.getElementById("modalBass"));
+  });
+
+  document.getElementById("btnCello").addEventListener("click", function () {
+    openModal(document.getElementById("modalCello"));
+  });
+
+  // Event listeners for closing modals
+  document.querySelectorAll(".close").forEach(function (closeButton) {
+    closeButton.addEventListener("click", function () {
+      closeModal(closeButton.closest(".modal"));
+    });
+  });
+
+  window.addEventListener("click", function (event) {
+    if (event.target.classList.contains("modal")) {
+      closeModal(event.target);
     }
+  });
+</script>
 
-    // Function to close a modal
-    function closeModal(modal) {
-      modal.style.display = "none";
-    }
-
-    // Event listener for each course button
-    document
-      .getElementById("btnAcousticGuitar")
-      .addEventListener("click", function () {
-        openModal(document.getElementById("modalAcousticGuitar"));
-      });
-
-    document.getElementById("btnBass").addEventListener("click", function () {
-      openModal(document.getElementById("modalBass"));
-    });
-
-    document.getElementById("btnCello").addEventListener("click", function () {
-      openModal(document.getElementById("modalCello"));
-    });
-
-    // Event listeners for closing modals
-    document.querySelectorAll(".close").forEach(function (closeButton) {
-      closeButton.addEventListener("click", function () {
-        closeModal(closeButton.closest(".modal"));
-      });
-    });
-
-    window.addEventListener("click", function (event) {
-      if (event.target.classList.contains("modal")) {
-        closeModal(event.target);
-      }
-    });
-  </script>
 </html>
