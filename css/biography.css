@@ -93,12 +93,11 @@ nav a {
 
 .wrapper p {
     width: 50%;
-    color: #fff;
     text-align: justify;
     font-family: 'Lora', serif;
     background-clip: text;
     -webkit-background-clip: text; 
-    color: transparent;
+    color: #fff;
     
 }
 
