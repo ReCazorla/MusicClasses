@@ -91,11 +91,15 @@ nav a {
     object-fit: cover;
 }
 
-.wrapper p{
+.wrapper p {
     width: 50%;
-    color:#fff;
+    color: #fff;
     text-align: justify;
     font-family: 'Lora', serif;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    background-color: #000; 
 }
 
 footer {
