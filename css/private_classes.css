@@ -179,3 +179,55 @@ footer a {
     gap: 10px;
   }
 }
+
+/* Hide the checkbox */
+.proposal-toggle {
+  display: none;
+}
+
+/* Style the label as a button */
+.proposal-button {
+  cursor: pointer;
+  padding: 10px 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  align-items: center;
+}
+
+.proposal-button:hover {
+  background-color: #808080;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0.2%;
+  top: 0%;
+  width: 99%;
+  height: 98%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  max-width: 80%;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
