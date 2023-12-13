@@ -11,7 +11,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #ffffff;
-    font-family: 'lora' serif;
 }
 
 h1 {
@@ -53,7 +52,7 @@ nav ul {
     gap: 20px;
     font-size: 20px;
     margin-top: -10px;
-    text-shadow: 1px 1px 2px rgb(133, 133, 133);
+    text-shadow: 1px 1px 2px rgb(133, 133, 133);    
 }
 
 nav a {
@@ -83,6 +82,7 @@ nav a {
     font-family: 'lora' serif;
     height: 100%;
     border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .wrapper img {
