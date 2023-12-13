@@ -23,6 +23,11 @@ body {
     font-family: 'lora' serif;
 }
 
+p {
+    font-family: "Lora", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
 header,
 nav {
     background: #ffffff;
@@ -146,7 +151,7 @@ footer .fa-youtube::after {
 
 footer .fa-instagram {
     font-size: 40px;
-    /* Tamanho do ícone */
+    
     background: -webkit-linear-gradient(right, #833ab4, #fd1d1d, #fcb045);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
